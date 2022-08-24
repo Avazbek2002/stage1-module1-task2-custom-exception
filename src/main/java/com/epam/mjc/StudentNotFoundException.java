@@ -1,6 +1,6 @@
 package com.epam.mjc;
 
-class StudentNotFoundException extends Exception {
+class StudentNotFoundException extends IllegalArgumentException {
     public StudentNotFoundException (String cause) {
         super(cause);
     }
